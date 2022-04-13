@@ -1,0 +1,93 @@
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+
+  @include respond(tab-small) {
+    // color: $font-color-primary;
+  }
+
+  flex: 1;
+
+  &__form {
+    min-width: 36rem;
+    margin-top: 4rem;
+
+    .n-p {
+      font-size: 1.3rem;
+
+      cursor: pointer;
+    }
+  }
+
+  &__more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .n-p {
+      color: var(--color-primary);
+    }
+  }
+
+  .n-h1,
+  .n-h2 {
+    margin-bottom: 1.6rem;
+    text-align: center;
+  }
+
+  .n-h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--color-gray-dark);
+  }
+
+  .n-button {
+    width: 100%;
+    &:hover {
+      background-color: var(--color-light);
+      color: var(--color-dark);
+    }
+  }
+
+  &__buttons {
+    margin-top: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    text-decoration: none;
+
+    .n-p {
+      font-size: 1.4rem;
+      display: flex;
+      justify-content: center;
+      gap: 0.8rem;
+
+      a {
+        text-decoration: none;
+        color: var(--color-primary);
+      }
+
+      a:hover {
+        color: var(--color-primary-dark);
+      }
+    }
+  }
+
+  &__footer {
+    flex: 1;
+    width: 100%;
+    max-width: 42rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .n-p {
+      font-size: 1.3rem;
+      font-weight: 300;
+      color: var(--color-gray-dark);
+    }
+  }
+}

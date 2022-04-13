@@ -1,0 +1,7 @@
+TODO global:
+- animations
+- user settings: upload avatar img
+- SignUp layout
+- reload / logout user after email change (?)
+- types refactor
+- test

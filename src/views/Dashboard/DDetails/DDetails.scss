@@ -1,0 +1,94 @@
+.details {
+  &__header {
+    margin-top: 2rem;
+    height: 25rem;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  .n-h1 {
+    font-size: 5rem;
+    font-weight: 600;
+  }
+
+  .n-p {
+    font-size: 1.5rem;
+    max-width: 60%;
+  }
+
+  &__join,
+  &__leave {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+    .n-button {
+      &:hover {
+        background-color: var(--color-light);
+        color: var(--color-dark);
+      }
+    }
+  }
+
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__more {
+    margin-top: 2rem;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-gray-dark);
+
+    .n-p {
+      color: var(--color-dark);
+    }
+  }
+
+  &__more-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .organizator {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+.chat {
+  .n-p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  &__input {
+    input {
+      margin-top: 1rem;
+      background: none;
+      padding: 1rem 2rem;
+      border-radius: 0.5rem;
+      border: 2px solid var(--color-primary);
+      outline: none;
+    }
+
+    .n-button {
+      margin-left: 1rem;
+      &:hover {
+        background-color: var(--color-light);
+        color: var(--color-dark);
+      }
+    }
+  }
+}

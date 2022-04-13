@@ -1,0 +1,159 @@
+.header {
+  font-size: 4rem;
+  padding: 0.5rem 0;
+  width: 100%;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .n-p {
+      font-size: 1.6rem;
+      font-weight: 500;
+    }
+
+    img {
+      width: 6rem;
+    }
+  }
+
+  &__profile {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 2rem;
+
+    @include respond(tab-small) {
+      display: none;
+    }
+
+    & > * {
+      cursor: pointer;
+    }
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 140%;
+    height: 1px;
+    background-color: var(--color-gray-light);
+    top: 100%;
+    left: -20%;
+  }
+
+  &__avatar {
+    position: relative;
+
+    label {
+      justify-self: center;
+      display: flex;
+    }
+
+    .n-avatar {
+      cursor: pointer;
+      justify-self: center;
+    }
+
+    input[type='file'] {
+      display: none;
+    }
+  }
+
+  &__dropdown-btn {
+    width: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__toggle-dropdown {
+    top: 140%;
+    right: 0;
+    z-index: 99999;
+    width: 25rem;
+    display: flex;
+    background-color: var(--color-light);
+    border: 1px solid var(--color-gray-light);
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  &__user-details {
+    display: flex;
+    padding: 0 2rem;
+    width: 100%;
+    gap: 2rem;
+    text-justify: center;
+    border-bottom: 1px solid var(--color-gray-light);
+  }
+
+  &__dropdown-options {
+    width: 100%;
+    padding: 1.6rem 2.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 5px;
+
+    .option {
+      font-size: 1.4rem;
+    }
+
+    .email {
+      margin-bottom: 1rem;
+    }
+
+    .n-button {
+      padding: 0.5rem 3rem;
+      font-size: 1.2rem;
+      &:hover {
+        background-color: var(--color-light);
+        color: var(--color-dark);
+      }
+    }
+  }
+  &__dropdown-options::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-gray-light);
+    top: 22%;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .rotated {
+    transform: rotate(180deg);
+  }
+}

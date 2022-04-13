@@ -1,0 +1,136 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+
+  flex: 1;
+
+  &__form {
+    max-width: 36rem;
+    margin-top: 2rem;
+
+    .n-p {
+      font-size: 1.3rem;
+
+      cursor: pointer;
+    }
+  }
+
+  &__password {
+    position: relative;
+
+    .n-form-item-feedback-wrapper {
+      display: none;
+    }
+
+    .xicon {
+      position: absolute;
+      top: -80%;
+      right: 0;
+    }
+  }
+
+  &__tooltip {
+    box-shadow: var(--shadow-light);
+    ul {
+      padding: 1rem 2rem;
+    }
+  }
+
+  &__password-container {
+    margin-bottom: 2rem;
+  }
+
+  &__more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .n-h1,
+  .n-h2 {
+    margin-bottom: 1.6rem;
+    text-align: center;
+  }
+
+  .n-h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--color-gray-dark);
+  }
+
+  .n-button {
+    width: 100%;
+    &:hover {
+      background-color: var(--color-light);
+      color: var(--color-dark);
+    }
+  }
+
+  &__buttons {
+    margin-top: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    text-decoration: none;
+
+    .n-p {
+      font-size: 1.4rem;
+      display: flex;
+      justify-content: center;
+      gap: 0.8rem;
+
+      a {
+        text-decoration: none;
+        color: var(--color-primary);
+      }
+
+      a:hover {
+        color: var(--color-primary-dark);
+      }
+    }
+  }
+
+  &__footer {
+    flex: 1;
+    width: 100%;
+    max-width: 48rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .n-p {
+      font-size: 1.3rem;
+      font-weight: 300;
+      color: var(--color-gray-dark);
+    }
+  }
+}
+
+// remove if header will be unused
+.header {
+  font-size: 4rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  nav {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+
+  .test {
+    background: var(--color-primary);
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 4px;
+  }
+}

@@ -1,0 +1,6 @@
+// HACKNAROK FRONTEDN TODO
+
+- lanidng page ozdoby
+- zmina tekstu na PL w signin i singup
+- wyrzucic libke z ikonami
+- poprawić cardsy !

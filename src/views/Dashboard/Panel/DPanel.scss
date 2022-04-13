@@ -1,0 +1,61 @@
+.dashboard {
+  &__wrapper {
+    height: 82vh;
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 4rem;
+
+    & > * {
+      flex: 1;
+    }
+  }
+
+  &__cards {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right: 1rem;
+  }
+
+  &__map {
+    border-radius: 1rem;
+    overflow: hidden;
+
+    @include respond(tab-medium) {
+      display: none;
+    }
+
+    .card {
+      padding: 0;
+      background: none;
+      border: none;
+      &__highlighted,
+      &__badge {
+        display: none;
+      }
+      &__profile {
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(3, min-content);
+        grid-template-columns: min-content 1fr;
+        grid-gap: 1rem;
+      }
+      &__name {
+        margin: 0;
+      }
+      &__description {
+        margin-top: 0;
+      }
+      &__footer {
+        p {
+          margin: 0;
+        }
+        .people-counter {
+          display: flex;
+          gap: 0.5rem;
+        }
+      }
+    }
+  }
+}

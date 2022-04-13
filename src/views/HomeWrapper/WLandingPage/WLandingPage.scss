@@ -1,0 +1,128 @@
+.landing-page {
+  height: 87vh;
+  position: relative;
+
+  @include respond(tab-small) {
+    margin-bottom: 8rem;
+  }
+
+  &__ornament-blob {
+    position: absolute;
+    top: 50rem;
+    left: 20rem;
+    height: 5rem;
+    path {
+      fill: var(--color-primary);
+      opacity: 0.3;
+    }
+  }
+  &__ornament-blob-2 {
+    position: absolute;
+    top: 260rem;
+    left: 90rem;
+    height: 5rem;
+    path {
+      fill: var(--color-primary);
+      opacity: 0.3;
+    }
+  }
+  &__ornament-blob-3 {
+    position: absolute;
+    top: 140rem;
+    left: 90rem;
+    height: 5rem;
+    path {
+      fill: var(--color-primary);
+      opacity: 0.3;
+    }
+  }
+  &__ornament-leaf {
+    position: absolute;
+    top: 230rem;
+    left: 2rem;
+    height: 5rem;
+    path {
+      fill: var(--color-primary);
+      opacity: 0.3;
+    }
+  }
+  // &__ornament-flafi {
+  //   position: absolute;
+  // }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    align-self: center;
+    justify-self: center;
+    height: 100%;
+
+    @include respond(tab-small) {
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+    }
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 4rem;
+    gap: 1.5rem;
+
+    @include respond(tab-small) {
+      order: 2;
+      padding: 0;
+      text-align: center;
+      align-items: center;
+    }
+
+    .n-h1 {
+      max-width: 45rem;
+      font-size: 4.2rem;
+      font-weight: 600;
+      line-height: 1.2;
+
+      @include respond(tab-big) {
+        font-size: 3.6rem;
+      }
+
+      @include respond(tab-small) {
+        font-size: 3.2rem;
+      }
+
+      @include respond(desktop) {
+        font-size: 2.6rem;
+      }
+    }
+
+    .n-p {
+      margin-bottom: 1rem;
+    }
+
+    .n-button {
+      align-self: flex-start;
+      padding: 2rem 4rem;
+
+      @include respond(tab-small) {
+        align-self: center;
+      }
+
+      &:hover {
+        background-color: var(--color-light);
+        color: var(--color-dark);
+      }
+    }
+  }
+
+  &__img {
+    align-self: center;
+    width: 100%;
+    border-radius: 1rem;
+
+    @include respond(tab-small) {
+      order: 1;
+    }
+  }
+}
