@@ -14,4 +14,4 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 [JoinMe](https://hacknarok.verybadcode.pl/)
 
 # Original repository
-[VeryBadCode - Hacknarök 2022 Front-End]https://github.com/VeryBadCode-team/hacknarok_frontend
+[VeryBadCode - Hacknarök 2022 Front-End](https://github.com/VeryBadCode-team/hacknarok_frontend)
