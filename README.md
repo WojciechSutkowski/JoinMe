@@ -1,17 +1,46 @@
-# Vue 3 + Typescript + Vite
+# VeryBadCode - Hacknarök 2022 - [JoinMe](https://hacknarok.verybadcode.pl/)
+<img src="/readme/hackathon-logo5.b20e6cfb.png" align="left"
+width="100" hspace="10" vspace="10">
+<img src="/readme/vbc-logo.png" align="left"
+width="100" hspace="10" vspace="10">
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## JoinMe - Frontend
 
-## Recommended IDE Setup
+Frontend JoinMe - projektu stworzonego na Hacknarök 2022
+<br />
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+[VeryBadCode - Hacknarök 2022 Front-End](https://github.com/VeryBadCode-team/hacknarok_frontend)
+<br />
 
-## Type Support For `.vue` Imports in TS
+## Skład zespołu
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+> Dominik Pająk<br />
+> [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/dpajak99)
+> [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/dominikpajak/)
 
-# Demo
-[JoinMe](https://hacknarok.verybadcode.pl/)
+> Jakub Serwin<br />
+> [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/jakubserwin)
+> [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jakub-serwin-4a1539210/)
 
-# Original repository
+> Wojciech Sutkowski<br />
+> [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/WojciechSutkowski)
+> [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/wojciech-sutkowski-87a609235/)
+
+## Screenshots
+<img src="/readme/screen1.jpg"
+width="45%" hspace="10" vspace="10">
+<img src="/readme/screen2.jpg"
+width="45%" hspace="10" vspace="10">
+
+<img src="/readme/screen3.jpg"
+width="45%" hspace="10" vspace="10">
+<img src="/readme/screen4.jpg"
+width="45%" hspace="10" vspace="10">
+
+<img src="/readme/screen5.jpg"
+width="45%" hspace="10" vspace="10">
+<img src="/readme/screen6.jpg"
+width="45%" hspace="10" vspace="10">
+
+## Original repository
 [VeryBadCode - Hacknarök 2022 Front-End](https://github.com/VeryBadCode-team/hacknarok_frontend)
