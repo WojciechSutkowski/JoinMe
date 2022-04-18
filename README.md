@@ -8,8 +8,6 @@ width="100" hspace="10" vspace="10">
 
 Frontend JoinMe - projektu stworzonego na Hacknarök 2022
 <br />
-
-[VeryBadCode - Hacknarök 2022 Front-End](https://github.com/VeryBadCode-team/hacknarok_frontend)
 <br />
 
 ## Skład zespołu
